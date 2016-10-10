@@ -3,9 +3,9 @@ import Carousel from 'react-bootstrap/lib/Carousel';
 
 function PhotoCarousel(props) {
   const items = [];
-  props.data.photos.forEach((item) => {
+  props.data.photos.forEach((item, index) => {
     items.push(
-      <Carousel.Item>
+      <Carousel.Item key={index}>
         <img alt={item.alt} src={item.src} />
       </Carousel.Item>
     );

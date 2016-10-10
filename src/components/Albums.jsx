@@ -9,13 +9,13 @@ class Albums extends React.Component {
   constructor(props) {
     super(props);
     this.state = { currentVideoIndex: 0 };
-    this.onVideoSelect = this.onVideoSelect.bind(this);
+    // this.onVideoSelect = this.onVideoSelect.bind(this);
   }
   render() {
     const items = [];
     this.props.soundCloudTrack.forEach((item, index) => {
       items.push(
-        <Col xs={6} md={3}>
+        <Col key={index} xs={6} md={3}>
           <iframe
             width="100%"
             height="300"
