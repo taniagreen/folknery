@@ -26,7 +26,7 @@ function HomePage(props) {
   return (
     <div>
       <TopMenu data={data.topMenu} lang={props.params.lang} />
-      <div style={{ height: 150, width: 35, position: 'fixed', top: 150, left: 5, zIndex: 100 }}>
+      <div className="visible-lg" style={{ height: 150, width: 35, position: 'fixed', top: 100, left: 5, zIndex: 100 }}>
         { /* <div className="divSocialIcon"> */}
         <SocialIcon
           url="https://www.facebook.com/Folknery-216515431724924/"
@@ -97,11 +97,48 @@ function HomePage(props) {
       <About data={data.about} />
       <Music {...data.music} />
       <Albums {...data.albums} />
-      <Singles data={data.singles} />
+      <Singles {...data.singles} />
       <Tour data={data.tour} />
       <TwoWheeledChronicles data={data.twoWheeledChronicles} />
       <Contacts data={data.contacts} />
       <Map />
+      <div className="container visible-sm visible-md visible-xs" style={{ height: 35, width: 275 }}>
+        <SocialIcon
+          url="https://www.facebook.com/Folknery-216515431724924/"
+          style={{ height: 35, width: 35, marginRight: 4 }}
+          color="#555"
+        />
+        <SocialIcon
+          url="https://twitter.com/Folknery"
+          style={{ height: 35, width: 35, marginRight: 4 }}
+          color="#555"
+        />
+        <SocialIcon
+          url="https://www.instagram.com/folknery/"
+          style={{ height: 35, width: 35, marginRight: 4 }}
+          color="#555"
+        />
+        <SocialIcon
+          url="https://www.youtube.com/user/Folknery"
+          style={{ height: 35, width: 35, marginRight: 4 }}
+          color="#555"
+        />
+        <SocialIcon
+          url="https://soundcloud.com/folknery"
+          style={{ height: 35, width: 35, marginRight: 4 }}
+          color="#555"
+        />
+        <SocialIcon
+          url="https://itunes.apple.com/ca/artist/folknery/id1123854330"
+          style={{ height: 35, width: 35, marginRight: 4 }}
+          color="#555"
+        />
+        <SocialIcon
+          url="https://play.google.com/store/music/artist/Folknery?id=A6vostbtw6b7n3nmstbk2flpq5e"
+          style={{ height: 35, width: 35 }}
+          color="#555"
+        />
+      </div>
     </div>
   );
 }

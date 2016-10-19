@@ -2,34 +2,42 @@ import React, { PropTypes } from 'react';
 import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
 import Row from 'react-bootstrap/lib/Row';
-import Thumbnail from 'react-bootstrap/lib/Thumbnail';
-import Media from 'react-bootstrap/lib/Media';
 
-function Singles(props) {
-  return (
-    <div className="albums">
+class Singles extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { currentVideoIndex: 0 };
+  }
+  render() {
+    const items = [];
+    this.props.soundCloudTrack.forEach((item, index) => {
+      items.push(
+        <Col key={index} lg={3} sm={6} xs={12} md={3}>
+          <iframe
+            width="100%"
+            scrolling="no"
+            frameBorder="no"
+            src={item.trackSrc}
+          />
+        </Col>
+      );
+    });
+    return (
       <div className="container">
-        <h3 className="text-center">{props.data.header}</h3>
-        <Media>
-          <Media.Left>
-            <img
-              width={150}
-              height={150}
-              src="/Images/singles.jpg"
-              alt={props.data.album_name}
-            />
-          </Media.Left>
-          <Media.Body>
-            <p>List of the singles</p>
-          </Media.Body>
-        </Media>
+        <h3 className="text-center">{this.props.header}</h3>
+        <Grid>
+          <Row>
+            {items}
+          </Row>
+        </Grid>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 Singles.propTypes = {
-  data: PropTypes.object.isRequired,
+  header: PropTypes.string.isRequired,
+  soundCloudTrack: PropTypes.array.isRequired,
 };
 
 export default Singles;
