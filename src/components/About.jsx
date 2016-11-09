@@ -25,7 +25,7 @@ function About(props) {
         </div>
       </div>
     </div>
-      );
+  );
 }
 
 About.propTypes = {

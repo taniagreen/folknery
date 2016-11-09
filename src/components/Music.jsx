@@ -16,7 +16,7 @@ class Music extends React.Component {
   }
 
   render() {
-    console.debug(this.props.videos[this.state.currentVideoIndex].src);
+    // console.debug(this.props.videos[this.state.currentVideoIndex].src);
     const items = [];
     this.props.videos.forEach((item, index) => {
       items.push(
