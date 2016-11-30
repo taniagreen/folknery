@@ -21,14 +21,14 @@ function Tour(props) {
             Tab 2
             </NavItem>
           </Nav>
-          <Tab.Content animation>
+          {/*<Tab.Content animation>
             <Tab.Pane eventKey="first">
             Tab 1 content
             </Tab.Pane>
             <Tab.Pane eventKey="second">
             Tab 2 content
             </Tab.Pane>
-          </Tab.Content>
+          </Tab.Content>*/}
         </Tab.Container>
       </div>
     </div>
