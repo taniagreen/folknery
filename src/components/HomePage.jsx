@@ -10,7 +10,7 @@ import Singles from './Singles';
 import Tour from './Tour';
 import TwoWheeledChronicles from './TwoWheeledChronicles';
 import Contacts from './Contacts';
-// import Map from './Map';
+import Map from './Map';
 
 import dataUk from '../data/dataUk.json';
 import dataEn from '../data/dataEn.json';
@@ -101,6 +101,7 @@ function HomePage(props) {
       <Tour data={data.tour} />
       <TwoWheeledChronicles data={data.twoWheeledChronicles} />
       <Contacts data={data.contacts} />
+      <Map data={data.map} />
       <div className="container visible-sm visible-md visible-xs" style={{ height: 35, width: 275 }}>
         <SocialIcon
           url="https://www.facebook.com/Folknery-216515431724924/"

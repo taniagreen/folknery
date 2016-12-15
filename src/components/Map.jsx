@@ -1,8 +1,8 @@
 import React from 'react';
-// import GoogleMap from 'google-map-react';
+import GoogleMap from 'google-map-react';
 
 class Map extends React.Component {
- /* componentDidMount() {
+ componentDidMount() {
     const myCenter = new GoogleMap.LatLng(-33.874066, 151.207517);
     function initialize() {
       const mapProp = {
@@ -23,7 +23,7 @@ class Map extends React.Component {
     }
 
     GoogleMap.event.addDomListener(window, 'load', initialize);
-  }*/
+  }
 
   render() {
     return (
