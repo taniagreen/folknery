@@ -206,17 +206,34 @@
         "header": "TOUR DATES",
         "text": "We will be happy to see you on our next concert!",
         "label": "New!",
-        "place1": "Rio, Brasil",
-        "place2": "Sydney, Australia",
+        "place1": "Rio (Brasil)",
+        "place2": "Sydney (Australia)",
         "place3": "Kyiv, Ukraine",
-        "moreinfo": "More info"
+        "moreinfo1": "Club 'Corona'",
+        "moreinfo2": "Summer Theatre",
+        "date1": "19/12/2016 20:00",
+        "date2": "25/12/2016 19:00",
+        "price1": "$10",
+        "price2": "free"   
     },
     "twoWheeledChronicles": {
         "header": "TWO-WHEELED CHRONICLES",
         "text1": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
         "text2": "Visit our ",
         "text3": "\"Two-Wheeled Chronicles\"",
-        "text4": " website to find out more about our adventures."
+        "text4": " website to find out more about our adventures. Our last expeditions are:",
+        "exp_name1": "Around The World",
+        "exp_date1": "2014-2018",
+        "exp_photo1": "/Images/trip1.jpg",
+        "exp_link1": "http://twowheeledchronicles.com/en/tour/around_the_world/?v=6cc98ba2045f",
+        "exp_name2": "Volhynia",
+        "exp_date2": "2014",
+        "exp_photo2": "/Images/trip2.jpg",
+        "exp_link2": "http://twowheeledchronicles.com/en/tour/volhynia/?v=6cc98ba2045f",
+        "exp_name3": "Black And White Stories",
+        "exp_date3": "2013",
+        "exp_photo3": "/Images/trip3.jpg",
+        "exp_link3": "http://twowheeledchronicles.com/en/tour/black-and-white-stories/?v=6cc98ba2045f"
     },
     "contacts": {
         "header": "CONTACT",

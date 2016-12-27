@@ -15,10 +15,11 @@ function Tour(props) {
         <Tab.Container defaultActiveKey="first">
           <Nav stacked>
             <NavItem eventKey="first">
-            Tab 1
+            <div className="tour_info">{props.data.date1}  -  {props.data.place1}  -  {props.data.moreinfo1}  -  {props.data.price1}
+            </div>
             </NavItem>
-            <NavItem eventKey="second">
-            Tab 2
+            <NavItem eventKey="second" className="tour_info">
+            {props.data.date2}  -  {props.data.place2}  -  {props.data.moreinfo2}  -  {props.data.price2}
             </NavItem>
           </Nav>
           {/*<Tab.Content animation>

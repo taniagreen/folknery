@@ -9,26 +9,26 @@ function TwoWheeledChronicles(props) {
       <div className="row text-center">
         <div className="col-sm-4">
           <div className="thumbnail">
-            <img src="./components/Images/300 (3).jpg" alt="Paris" />
-            <p><strong>Paris</strong></p>
-            <p>Fri. 27 November 2015</p>
-            <button className="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+            <img width="250" src={props.data.exp_photo1} />
+            <p><strong>{props.data.exp_name1}</strong></p>
+            <p>{props.data.exp_date1}</p>
+            <a className="btn" href={props.data.exp_link1} target="blank">More details</a>
           </div>
         </div>
         <div className="col-sm-4">
           <div className="thumbnail">
-            <img src="./components/Images/300 (4).jpg" alt="New York" />
-            <p><strong>New York</strong></p>
-            <p>Sat. 28 November 2015</p>
-            <button className="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>>
+            <img width="250" src={props.data.exp_photo2} />
+            <p><strong>{props.data.exp_name2}</strong></p>
+            <p>{props.data.exp_date2}</p>
+            <a className="btn" href={props.data.exp_link2} target="blank">More details</a>
           </div>
         </div>
         <div className="col-sm-4">
           <div className="thumbnail">
-            <img src="./components/Images/300 (5).jpg" alt="San Francisco" />
-            <p><strong>San Francisco</strong></p>
-            <p>Sun. 29 November 2015</p>
-            <button className="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+            <img width="250" src={props.data.exp_photo3} />
+            <p><strong>{props.data.exp_name3}</strong></p>
+            <p>{props.data.exp_date3}</p>
+            <a className="btn" href={props.data.exp_link3} target="blank">More details</a>
           </div>
         </div>
       </div>

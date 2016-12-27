@@ -14,13 +14,13 @@ function About(props) {
         <div className="col-sm-6 text-center">
           <p><strong>{props.data.personY}</strong></p><br />
           <a href="#demoYaryna">
-            <img src="/Images/yara.png" alt="Yaryna Kvitka" className="img-circle person" width="255" height="255" />
+            <img src="/Images/folk1.jpg" alt="Yaryna Kvitka" className="img-circle person" width="255" height="255" />
           </a>
         </div>
         <div className="col-sm-6 text-center">
           <p><strong>{props.data.personV}</strong></p><br />
           <a href="#demoVolo">
-            <img src="/Images/volo.png" alt="Volodymyr Muliar" className="img-circle person" width="255" height="255" />
+            <img src="/Images/folk2.jpg" alt="Volodymyr Muliar" className="img-circle person" width="255" height="255" />
           </a>
         </div>
       </div>
