@@ -13,43 +13,25 @@ function TopMenu(props) {
     lang = <Link to="/uk/">UK</Link>;
   }
   return (
-    /* <Navbar>
-     <Navbar.Header>
-       <Navbar.Brand>
-         <a href="#"><img src={props.data.logo} alt="Folknery" /></a>
-       </Navbar.Brand>
-     </Navbar.Header>
-     <Navbar.Collapse>
-       <Nav>
-         <NavItem eventKey={1} href="#music">{props.data.music}</NavItem>
-         <NavItem eventKey={2} href="#tour">{props.data.tour}</NavItem>
-         <NavItem eventKey={3} href="#twowheeledchronicles">{props.data.twowheeledchronicles}</NavItem>
-         <NavItem eventKey={4} href="#contact">{props.data.contact}</NavItem>
-         <NavItem eventKey={5} href="#">{lang}</NavItem>
-       </Nav>
-     </Navbar.Collapse>
-   </Navbar>*/
-    <nav className="navbar navbar-default navbar-fixed-top">
-      <div className="container-fluid">
-        <div className="navbar-header">
-          <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span className="icon-bar" />
-            <span className="icon-bar" />
-            <span className="icon-bar" />
-          </button>
-          <img className="logoTop" src={props.data.logo} alt="Logo" />
-        </div>
-        <div className="collapse navbar-collapse" id="myNavbar">
-          <ul className="nav navbar-nav navbar-right">
-            <li><a href="#music">{props.data.music}</a></li>
-            <li><a href="#tour">{props.data.tour}</a></li>
-            <li><a href="#twowheeledchronicles">{props.data.twowheeledchronicles}</a></li>
-            <li><a href="#contact">{props.data.contact}</a></li>
-            <li>{lang}</li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div className="top-menu">
+      <Navbar>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <img className="logoTop" src={props.data.logo} alt="Logo" />
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+          <Nav pullRight>
+            <NavItem eventKey={1} href="#music">{props.data.music}</NavItem>
+            <NavItem eventKey={2} href="#tour">{props.data.tour}</NavItem>
+            <NavItem eventKey={3} href="#twowheeledchronicles">{props.data.twowheeledchronicles}</NavItem>
+            <NavItem eventKey={4} href="#contact">{props.data.contact}</NavItem>
+            <NavItem eventKey={5} href="#">{lang}</NavItem>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
   );
 }
 

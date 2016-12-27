@@ -217,10 +217,11 @@
         "price2": "free"   
     },
     "twoWheeledChronicles": {
+        "button_text": "More details",
         "header": "TWO-WHEELED CHRONICLES",
         "text1": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
         "text2": "Visit our ",
-        "text3": "\"Two-Wheeled Chronicles\"",
+        "text3": "Two-Wheeled Chronicles",
         "text4": " website to find out more about our adventures. Our last expeditions are:",
         "exp_name1": "Around The World",
         "exp_date1": "2014-2018",

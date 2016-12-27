@@ -7,7 +7,7 @@ function Contacts(props) {
       <p className="text-center">{props.data.text}</p>
       <div className="row test">
         <div className="col-md-12">
-          <p><span className="glyphicon glyphicon-envelope" />{props.data.mail}</p>
+          <p className="text-center"><span className="glyphicon glyphicon-envelope" />{props.data.mail}</p>
         </div>
       </div>
     </div>

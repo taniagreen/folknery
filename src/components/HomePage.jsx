@@ -10,7 +10,7 @@ import Singles from './Singles';
 import Tour from './Tour';
 import TwoWheeledChronicles from './TwoWheeledChronicles';
 import Contacts from './Contacts';
-import Map from './Map';
+// import Map from './Map';
 
 import dataUk from '../data/dataUk.json';
 import dataEn from '../data/dataEn.json';
@@ -63,35 +63,6 @@ function HomePage(props) {
           style={{ height: 35, width: 35, marginBottom: 5 }}
           color="gray"
         />
-        {/* <SocialIcon
-            url="https://www.facebook.com/Folknery-216515431724924/"
-            className="socIcon"
-            />
-          <SocialIcon
-            url="https://twitter.com/Folknery"
-            className="socIcon"
-            />
-          <SocialIcon
-            url="https://www.instagram.com/folknery/"
-            className="socIcon"
-            />
-          <SocialIcon
-            url="https://www.youtube.com/user/Folknery"
-            className="socIcon"
-            />
-          <SocialIcon
-            url="https://soundcloud.com/folknery"
-            className="socIcon"
-            />
-          <SocialIcon
-            url="https://itunes.apple.com/ca/artist/folknery/id1123854330"
-            className="socIcon"
-            />
-          <SocialIcon
-            url="https://play.google.com/store/music/artist/Folknery?id=A6vostbtw6b7n3nmstbk2flpq5e"
-            className="socIcon"
-            />
-        </div>*/}
       </div>
       <PhotoCarousel data={data.carousel} />
       <About data={data.about} />
@@ -101,7 +72,9 @@ function HomePage(props) {
       <Tour data={data.tour} />
       <TwoWheeledChronicles data={data.twoWheeledChronicles} />
       <Contacts data={data.contacts} />
-      <Map data={data.map} />
+      {
+        // <Map data={data.map} />
+      }
       <div className="container visible-sm visible-md visible-xs" style={{ height: 35, width: 275 }}>
         <SocialIcon
           url="https://www.facebook.com/Folknery-216515431724924/"
@@ -142,35 +115,6 @@ function HomePage(props) {
     </div>
   );
 }
-
-// <script>
-//     $(document).ready(function () {
-//         // Add smooth scrolling to all links in navbar + footer link
-//         $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
-//
-//             // Make sure this.hash has a value before overriding default behavior
-//             if (this.hash !== "") {
-//
-//                 // Prevent default anchor click behavior
-//                 event.preventDefault();
-//
-//                 // Store hash
-//                 var hash = this.hash;
-//
-//                 // Using jQuery's animate() method to add smooth page scroll
-//                 // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-//                 $('html, body').animate({
-//                     scrollTop: $(hash).offset().top
-//                 }, 900, function () {
-//
-//                     // Add hash (#) to URL when done scrolling (default click behavior)
-//                     window.location.hash = hash;
-//                 });
-//             } // End if
-//         });
-//     })
-// </script>
-//
 
 HomePage.propTypes = {
   params: PropTypes.object.isRequired,
