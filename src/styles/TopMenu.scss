@@ -7,7 +7,12 @@
       border: 0;
       font-size: 11px !important;
       letter-spacing: 4px;
-      opacity:0.9;
+      opacity:0.7;
+
+      > .container {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
   }
   
   /* Add a gray color to all navbar links */

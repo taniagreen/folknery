@@ -14,7 +14,7 @@ function TopMenu(props) {
   }
   return (
     <div className="top-menu">
-      <Navbar>
+      <Navbar fixedTop fluid>
         <Navbar.Header>
           <Navbar.Brand>
             <img className="logoTop" src={props.data.logo} alt="Logo" />
