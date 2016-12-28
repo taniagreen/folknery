@@ -1,4 +1,5 @@
 {
+    "footerText": "Created with love by",
     "topMenu": {
         "logo": "./Images/logo_en_2.png",
         "music": "MUSIC/VIDEO",
@@ -74,42 +75,42 @@
                 "alt": "Karchata"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=8h1yLALaLxU",
+                "videoSrc": "https://www.youtube.com/embed/8h1yLALaLxU",
                 "photoSrc": "/Images/video4.png",
                 "alt": "Na kul stala"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=iu4s4N0AN4E",
+                "videoSrc": "https://www.youtube.com/embed/iu4s4N0AN4E",
                 "photoSrc": "/Images/video5.png",
                 "alt": "EuroHoydalka"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=Lv1lRGUXZw0",
+                "videoSrc": "https://www.youtube.com/embed/Lv1lRGUXZw0",
                 "photoSrc": "/Images/video6.png",
                 "alt": "Vyplyvalo utenia"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=owuvtl5D7yw",
+                "videoSrc": "https://www.youtube.com/embed/owuvtl5D7yw",
                 "photoSrc": "/Images/video7.png",
                 "alt": "In the forest"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=j3p2djpcPfk",
+                "videoSrc": "https://www.youtube.com/embed/j3p2djpcPfk",
                 "photoSrc": "/Images/video8.png",
                 "alt": "Concert in the ethnographic museum of Sierpc"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=MujrD78GqCA",
+                "videoSrc": "https://www.youtube.com/embed/MujrD78GqCA",
                 "photoSrc": "/Images/video9.png",
                 "alt": "Hoydalka"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=ypZSYkIyDJw",
+                "videoSrc": "https://www.youtube.com/embed/ypZSYkIyDJw",
                 "photoSrc": "/Images/video10.png",
                 "alt": "Halia"
             },
             {
-                "videoSrc": "https://www.youtube.com/watch?v=Ngi7jFLwG2A",
+                "videoSrc": "https://www.youtube.com/embed/Ngi7jFLwG2A",
                 "photoSrc": "/Images/video11.png",
                 "alt": "Oy, pobredu, pobredu (Loboda)"
             }

@@ -10,6 +10,7 @@ import Singles from './Singles';
 import Tour from './Tour';
 import TwoWheeledChronicles from './TwoWheeledChronicles';
 import Contacts from './Contacts';
+import Footer from './Footer';
 // import Map from './Map';
 
 import dataUk from '../data/dataUk.json';
@@ -75,6 +76,7 @@ function HomePage(props) {
       {
         // <Map data={data.map} />
       }
+      <Footer text={data.footerText} />
       <div className="container visible-sm visible-md visible-xs" style={{ height: 35, width: 275 }}>
         <SocialIcon
           url="https://www.facebook.com/Folknery-216515431724924/"
