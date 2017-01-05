@@ -25,19 +25,21 @@ class Music extends React.Component {
             <img className="videoThumbnail" alt={item.alt} src={item.photoSrc} />
           </button>
         </Col>
-    );
+      );
     });
     return (
-      <div id="music" className="container">
-        <h3 className="text-center">{this.props.header}</h3>
-        <div className="videoWrapper">
-          <iframe src={this.props.videos[this.state.currentVideoIndex].videoSrc} frameBorder="0" allowFullScreen />
+      <div id="music" className="bg-1">
+        <div className="container">
+          <h3 className="text-center">{this.props.header}</h3>
+          <div className="videoWrapper">
+            <iframe src={this.props.videos[this.state.currentVideoIndex].videoSrc} frameBorder="0" allowFullScreen />
+          </div>
+          <Grid>
+            <Row>
+              {items}
+            </Row>
+          </Grid>
         </div>
-        <Grid>
-          <Row>
-            {items}
-          </Row>
-        </Grid>
       </div>
     );
   }

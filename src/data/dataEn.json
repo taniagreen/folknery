@@ -10,35 +10,31 @@
     "carousel": {
         "photos": [
             {
-                "src": "./Images/1.JPG",
+                "src": "./Images/01.JPG",
                 "alt": "Folknery"
             },
             {
-                "src": "./Images/2.JPG",
+                "src": "./Images/02.JPG",
                 "alt": "Folknery"
             },
             {
-                "src": "./Images/3.JPG",
+                "src": "./Images/03.JPG",
                 "alt": "Folknery"
             },
             {
-                "src": "./Images/4.JPG",
+                "src": "./Images/04.JPG",
                 "alt": "Folknery"
             },
             {
-                "src": "./Images/5.JPG",
+                "src": "./Images/05.JPG",
                 "alt": "Folknery"
             },
             {
-                "src": "./Images/6.JPG",
+                "src": "./Images/06.JPG",
                 "alt": "Folknery"
             },
             {
-                "src": "./Images/7.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/8.JPG",
+                "src": "./Images/07.JPG",
                 "alt": "Folknery"
             }
         ],
@@ -54,7 +50,9 @@
         "text5": "At the festival \"Cherwona Ruta – 2013\" Folknery won the I award in the genre of \"acoustic music\".",
         "text6": "During the Days of Ukraine in Great Britain (October 2013) group represented the musical Ukraine, performing in the heart of London on the same stage with bands Vopli Vidopliassova, Kozak System and Taras Chubay.",
         "personY": "Yaryna Kvitka",
-        "personV": "Volodymyr Muliar"
+        "personV": "Volodymyr Muliar",
+        "personYdescr": "singing, percussion, wheel lyre, guimbarde",
+        "personVdescr": "drums, taisho-koto, harmonica, guitar, sound"
     },
     "music": {
         "header": "MUSIC/VIDEO",
@@ -223,19 +221,8 @@
         "text1": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
         "text2": "Visit our ",
         "text3": "Two-Wheeled Chronicles",
-        "text4": " website to find out more about our adventures. Our last expeditions are:",
-        "exp_name1": "Around The World",
-        "exp_date1": "2014-2018",
-        "exp_photo1": "/Images/trip1.jpg",
-        "exp_link1": "http://twowheeledchronicles.com/en/tour/around_the_world/?v=6cc98ba2045f",
-        "exp_name2": "Volhynia",
-        "exp_date2": "2014",
-        "exp_photo2": "/Images/trip2.jpg",
-        "exp_link2": "http://twowheeledchronicles.com/en/tour/volhynia/?v=6cc98ba2045f",
-        "exp_name3": "Black And White Stories",
-        "exp_date3": "2013",
-        "exp_photo3": "/Images/trip3.jpg",
-        "exp_link3": "http://twowheeledchronicles.com/en/tour/black-and-white-stories/?v=6cc98ba2045f"
+        "text4": " website to find out more about our adventures.",
+        "exp_link": "http://twowheeledchronicles.com/en/"
     },
     "contacts": {
         "header": "CONTACT",

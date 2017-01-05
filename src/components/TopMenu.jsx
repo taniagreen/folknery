@@ -17,7 +17,7 @@ function TopMenu(props) {
       <Navbar fixedTop fluid>
         <Navbar.Header>
           <Navbar.Brand>
-            <img className="logoTop" src={props.data.logo} alt="Logo" />
+            <a href=""><img className="logoTop" src={props.data.logo} alt="Logo" /></a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

@@ -18,18 +18,20 @@ class Singles extends React.Component {
             scrolling="no"
             frameBorder="no"
             src={item.trackSrc}
-          />
+            />
         </Col>
       );
     });
     return (
-      <div className="container">
-        <h3 className="text-center">{this.props.header}</h3>
-        <Grid>
-          <Row>
-            {items}
-          </Row>
-        </Grid>
+      <div className="bg-1">
+        <div className="container">
+          <h3 className="text-center">{this.props.header}</h3>
+          <Grid>
+            <Row>
+              {items}
+            </Row>
+          </Grid>
+        </div>
       </div>
     );
   }

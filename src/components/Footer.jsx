@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <footer className="text-center">
       {props.text}&nbsp;
-      <a href="http://greenteam.site/" data-toggle="tooltip" title="Green Team">
+      <a href="http://greenteam.site/" title="Green Team" target="blank">
        GreenTeam
       </a>
     </footer>
