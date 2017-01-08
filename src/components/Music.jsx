@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 import Col from 'react-bootstrap/lib/Col';
 import Grid from 'react-bootstrap/lib/Grid';
 import Row from 'react-bootstrap/lib/Row';
-import Thumbnail from 'react-bootstrap/lib/Thumbnail';
 
 class Music extends React.Component {
   constructor(props) {
@@ -23,8 +22,9 @@ class Music extends React.Component {
         <Col key={index} xs={6} md={3}>
           <button className="thumbnail" title={item.alt} onClick={this.onVideoSelect} value={index}>
             <img className="videoThumbnail" alt={item.alt} src={item.photoSrc} />
+            <img className="videoBtn" alt="" src="../Images/button.png" />
           </button>
-        </Col>
+        </Col>,
       );
     });
     return (

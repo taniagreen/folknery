@@ -36,6 +36,10 @@
                         {
                 "src": "/Images/07.JPG",
                 "alt": "Фолькнери"
+            },
+                        {
+                "src": "/Images/08.JPG",
+                "alt": "Фолькнери"
             }
         ],
         "controlNext": "Вперед",
@@ -77,39 +81,14 @@
                 "alt": "Розова-бєрьозова (На куль стала)"
             },
                         {
-                "videoSrc": "https://www.youtube.com/embed/iu4s4N0AN4E",
-                "photoSrc": "/Images/video5.png",
-                "alt": "Єврогойдалка"
-            },
-                        {
                 "videoSrc": "https://www.youtube.com/embed/Lv1lRGUXZw0",
                 "photoSrc": "/Images/video6.png",
                 "alt": "Випливало утеня"
             },
-                        {
-                "videoSrc": "https://www.youtube.com/embed/owuvtl5D7yw",
-                "photoSrc": "/Images/video7.png",
-                "alt": "У лісі"
-            },
-                        {
-                "videoSrc": "https://www.youtube.com/embed/j3p2djpcPfk",
-                "photoSrc": "/Images/video8.png",
-                "alt": "Концерт в етнографічному музеї міста Сєрпцб Польща"
-            },
-                        {
-                "videoSrc": "https://www.youtube.com/embed/MujrD78GqCA",
-                "photoSrc": "/Images/video9.png",
-                "alt": "Гойдалка"
-            },
-                        {
-                "videoSrc": "https://www.youtube.com/embed/ypZSYkIyDJw",
-                "photoSrc": "/Images/video10.png",
-                "alt": "Галя"
-            },
             {
-                "videoSrc": "https://www.youtube.com/embed/Ngi7jFLwG2A",
-                "photoSrc": "/Images/video11.png",
-                "alt": "Ой побреду, побреду (Лобода)"
+                "videoSrc": "https://www.youtube.com/embed/pLFM2hHCEWQ",
+                "photoSrc": "/Images/video10.png",
+                "alt": "Колядка на 'Же'"
             }
         ]
     },
