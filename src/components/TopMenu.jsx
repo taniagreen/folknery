@@ -8,9 +8,11 @@ import NavItem from 'react-bootstrap/lib/NavItem';
 function TopMenu(props) {
   let lang = {};
   if (props.lang === 'uk') {
-    lang = <Link to="/">EN</Link>;
+    const boundOnLangChange = props.onLangChange.bind(this, 'en');
+    lang = <Link onClick={boundOnLangChange} to="/">EN</Link>;
   } else {
-    lang = <Link to="/uk/">UK</Link>;
+    const boundOnLangChange = props.onLangChange.bind(this, 'uk');
+    lang = <Link onClick={boundOnLangChange} to="/uk/">UK</Link>;
   }
   return (
     <div className="top-menu">
@@ -37,7 +39,8 @@ function TopMenu(props) {
 
 TopMenu.propTypes = {
   data: PropTypes.object.isRequired,
-  lang: PropTypes.object.isRequired,
+  lang: PropTypes.string.isRequired,
+  onLangChange: PropTypes.func.isRequired,
 };
 
 export default TopMenu;

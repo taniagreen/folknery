@@ -13,20 +13,10 @@ import Contacts from './Contacts';
 import Footer from './Footer';
 // import Map from './Map';
 
-import dataUk from '../data/dataUk.json';
-import dataEn from '../data/dataEn.json';
-
 function HomePage(props) {
-  let data = {};
-  if (props.params.lang === 'uk') {
-    data = dataUk;
-  } else {
-    data = dataEn;
-  }
-
   return (
     <div>
-      <TopMenu data={data.topMenu} lang={props.params.lang} />
+      <TopMenu data={props.data.topMenu} lang={props.lang} onLangChange={props.onLangChange} />
       <div className="visible-lg" style={{ height: 150, width: 35, position: 'fixed', top: 100, left: 5, zIndex: 100 }}>
         { /* <div className="divSocialIcon"> */}
         <SocialIcon
@@ -65,18 +55,18 @@ function HomePage(props) {
           color="gray"
         />
       </div>
-      <PhotoCarousel data={data.carousel} />
-      <About data={data.about} />
-      <Music {...data.music} />
-      <Albums {...data.albums} />
-      <Singles {...data.singles} />
-      <Tour data={data.tour} />
-      <TwoWheeledChronicles data={data.twoWheeledChronicles} />
-      <Contacts data={data.contacts} />
+      <PhotoCarousel data={props.data.carousel} />
+      <About data={props.data.about} />
+      <Music {...props.data.music} />
+      <Albums {...props.data.albums} />
+      <Singles {...props.data.singles} />
+      <Tour data={props.data.tour} />
+      <TwoWheeledChronicles data={props.data.twoWheeledChronicles} />
+      <Contacts data={props.data.contacts} />
       {
-        // <Map data={data.map} />
+        // <Map data={props.data.map} />
       }
-      <Footer text={data.footerText} />
+      <Footer text={props.data.footerText} />
       <div className="container visible-sm visible-md visible-xs" style={{ height: 35, width: 275 }}>
         <SocialIcon
           url="https://www.facebook.com/Folknery-216515431724924/"
@@ -119,7 +109,9 @@ function HomePage(props) {
 }
 
 HomePage.propTypes = {
-  params: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired,
+  lang: PropTypes.string.isRequired,
+  onLangChange: PropTypes.func.isRequired,
 };
 
 export default HomePage;

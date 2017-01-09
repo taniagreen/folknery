@@ -24,7 +24,7 @@ class Music extends React.Component {
             <img className="videoThumbnail" alt={item.alt} src={item.photoSrc} />
             <img className="videoBtn" alt="" src="../Images/button.png" />
           </button>
-        </Col>,
+        </Col>
       );
     });
     return (
