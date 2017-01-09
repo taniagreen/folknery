@@ -1,11 +1,12 @@
-const dataUk = require('./server/data/dataUk.json');
-const dataEn = require('./server/data/dataEn.json');
+const dataUk = require('./data/dataUk.json');
+const dataEn = require('./data/dataEn.json');
 
 // BASE SETUP
 // =============================================================================
 
 // call the packages we need
 const express = require('express');        // call express
+
 const app = express();                 // define our app using express
 const bodyParser = require('body-parser');
 
