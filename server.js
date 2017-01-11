@@ -1,5 +1,5 @@
-const dataUk = require('./data/dataUk.json');
-const dataEn = require('./data/dataEn.json');
+const dataUk = require('./server/data/dataUk.json');
+const dataEn = require('./server/data/dataEn.json');
 
 // BASE SETUP
 // =============================================================================
@@ -44,4 +44,4 @@ app.use('/api', router);
 // START THE SERVER
 // =============================================================================
 app.listen(port);
-console.log('Web Api has been started on port ' + port);
+console.log(`Web Api has been started on port ${port}`);

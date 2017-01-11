@@ -1,0 +1,211 @@
+{
+    "footerText": "Created with love by",
+    "topMenu": {
+        "logo": "./Images/logo_en_2.png",
+        "music": "MUSIC/VIDEO",
+        "tour": "TOUR",
+        "twowheeledchronicles": "TWO-WHEELED CHRONICLES",
+        "contact": "CONTACT"
+    },
+    "carousel": {
+        "photos": [
+            {
+                "src": "./Images/01.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/02.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/03.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/04.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/05.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/06.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/07.JPG",
+                "alt": "Folknery"
+            },
+            {
+                "src": "./Images/08.JPG",
+                "alt": "Folknery"
+            }
+        ],
+        "controlNext": "Next",
+        "controlPrevious": "Previous"
+    },
+    "about": {
+        "header": "THE BAND",
+        "text1": "The name Folknery comes from the name of both the American writer William Faulkner and the term \"folklore\". According to Volodymyr Muliar's words, during the cycling trip to Abkhazia, while searching the band name, Sir William Faulkner came in his dreams proposing to use his last name as a name of the band. By an amazing coincidence, it was consonant with the term \"folklore\", the subject of the band's activity.",
+        "text2": "The band was founded in Kyiv, Ukraine, by Volodymyr Muliar and Yaryna Kvitka in 2009. Before, Volodymyr played drums in several rock bands in his hometown of Khmelnytsky and Yaryna (originally from Stryi, Lviv region) was engaged in folk singing at the Kyiv ethno-band \"Rozhanytsia\". After meeting in 2008, both shared an interest in cycling trips and folk music. In 2009 in a joint cycling trip to Abkhazia the couple performed publicly for the first time on the streets of several cities. Soon, Volodymyr and Yaryna recorded together their own version of Ukrainian folk song \"Da zyma nasha biela\" and began to seek actively musicians to supplement the group.",
+        "text3": "At the beginning of 2010 the group joined vocalist Yulia Sovershenna also a member of the group \"Rozhanytsia\" and while some time Folknery were working as three members. At that time was formed the musical style of the band – a mix of authentic Ukrainian singing in free-folk arrangement involving elements of different trends of the world folk and popular music, as well as unusual musical instruments: hurdy gurdy, African Djembe and others. This line-up recorded the song \"Vyplyvalo utenya\" and the first music video (directed by Oksana Kazmina, cameraman Maxim Hutsu). The video was presented at the festival \"Trypilske Kolo\" 2010.",
+        "text4": "In 2011 Folknery began a concert activity with increased line-up: accordionist Ostap Danyliv and percussionist Roman Sharkevych joined the band. Since then, the group has performed at the renowned festivals in Ukraine and abroad, \"ArtPole\", \"Kraina Mriy\", \"Trypilske kolo\", \"Terra Heroica\", \"Rozhanytsia\", \"Trypilski zori\", \"Rok-Koliada\", \"Mlynomaniya\", \"Cheremosh fest\"; \"Mikołajki Folkowe\", \"Sabałowe Bajania\", \"Letnija Akademija Filmowa w Zwierzyńcu\", \"Muzyczne Dialogi nad Bugiem\", \"Jarmark Jagelonski\" (Poland); \"Mėnuo Juodaragis\" (Lithuania); \"Kamyanitsa\" (Belarus).\n In December 2011 Folknery became the best ethnic band at the International festival-contest \"Mikołajki Folkowe\" (Lublin, Poland). Besides the 1st prize, band also won the \"Audience Award\".\n In 2012 Ostap Danyliv was replaced by Iryna Viryasova, Roman Sharkevych left the band and Dmytro Sorokin joined as the guitarist. In early 2013 the band presented the new video for the song \"Rozova – byeryozova\" (directed by Maryna Hryshai, cameraman Maksym Zaika), which won the film festival \"Vision\" (Kemerovo, Russia, 2013).",
+        "text5": "At the festival \"Cherwona Ruta – 2013\" Folknery won the I award in the genre of \"acoustic music\".",
+        "text6": "During the Days of Ukraine in Great Britain (October 2013) group represented the musical Ukraine, performing in the heart of London on the same stage with bands Vopli Vidopliassova, Kozak System and Taras Chubay.",
+        "personY": "Yaryna Kvitka",
+        "personV": "Volodymyr Muliar",
+        "personYdescr": "singing, percussion, wheel lyre, guimbarde",
+        "personVdescr": "drums, taisho-koto, harmonica, guitar, sound"
+    },
+    "music": {
+        "header": "MUSIC/VIDEO",
+        "videos": [
+            {
+                "videoSrc": "https://www.youtube.com/embed/p2iBNO06LQk",
+                "photoSrc": "/Images/video1.png",
+                "alt": "Dorizhechka"
+            },
+            {
+                "videoSrc": "https://www.youtube.com/embed/rvv0YcgewbY",
+                "photoSrc": "/Images/video2.png",
+                "alt": "Halynka"
+            },
+            {
+                "videoSrc": "https://www.youtube.com/embed/keGta1oAU2g",
+                "photoSrc": "/Images/video3.png",
+                "alt": "Karchata"
+            },
+            {
+                "videoSrc": "https://www.youtube.com/embed/8h1yLALaLxU",
+                "photoSrc": "/Images/video4.png",
+                "alt": "Rozova-beriozova (Na kul stala)"
+            },
+            {
+                "videoSrc": "https://www.youtube.com/embed/Lv1lRGUXZw0",
+                "photoSrc": "/Images/video6.png",
+                "alt": "Vyplyvalo utenia"
+            },
+                        {
+                "videoSrc": "https://www.youtube.com/embed/pLFM2hHCEWQ",
+                "photoSrc": "/Images/video10.png",
+                "alt": "Koliadka na Zhe"
+            }
+        ]
+    },
+    "albums": {
+        "header": "ALBUMS",
+        "album_name": "Useful things",
+        "soundCloudTrack": [
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159619990&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Da zyma nasha bela"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620334&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Ivan"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620484&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Goydalka"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620636&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Rozova-beriozova (Na kul stala)"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620815&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Pas Vasylko stadom koni"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620904&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Tadi shugay tadi"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620999&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Karchata"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621348&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Oy, letilo pomelo"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621575&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Schodryi vechor"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621673&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Pannochka"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621783&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Chaynushky"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621904&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Vesna krasna"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159622032&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Vyplyvalo utenia"
+            }
+        ]
+    },
+    "singles": {
+        "header": "SINGLES",
+        "soundCloudTrack":  [
+             {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530127&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Evrokolomyiky"
+            },
+             {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530511&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "EuroHoydalka"
+            },
+             {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215672783&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Folknery & Roham Azarpira - Kolyadka Na Zhe"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231801446&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Folknery Feat Yan Tychkovskyi - Halynka"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238206117&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Folknery - U Lisi"
+            },
+            {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268826628&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+                "alt": "Folknery & Alex Vaghin - Dorizhechka"
+            }
+        ]
+    },
+    "tour": {
+        "header": "TOUR DATES",
+        "text": "We will be happy to see you on our next concert!",
+        "label": "New!",
+        "place1": "Rio (Brasil)",
+        "place2": "Sydney (Australia)",
+        "place3": "Kyiv, Ukraine",
+        "moreinfo1": "Club 'Corona'",
+        "moreinfo2": "Summer Theatre",
+        "date1": "19/12/2016 20:00",
+        "date2": "25/12/2016 19:00",
+        "price1": "$10",
+        "price2": "free"
+    },
+    "twoWheeledChronicles": {
+        "button_text": "More details",
+        "header": "TWO-WHEELED CHRONICLES",
+        "text1": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
+        "text2": "Visit our ",
+        "text3": "Two-Wheeled Chronicles",
+        "text4": " website to find out more about our adventures.",
+        "exp_link": "http://twowheeledchronicles.com/en/"
+    },
+    "contacts": {
+        "header": "CONTACT",
+        "text": "We will be happy to hear from you!",
+        "mail": " folknery@gmail.com"
+    }
+}

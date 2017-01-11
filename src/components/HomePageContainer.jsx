@@ -3,6 +3,9 @@ import React, { PropTypes } from 'react';
 import HomePage from './HomePage';
 import { getData } from '../api/api';
 
+import dataUk from '../data/dataUk.json';
+import dataEn from '../data/dataEn.json';
+
 class HomePageContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -20,8 +23,16 @@ class HomePageContainer extends React.Component {
   }
 
   setDataFromApi(lang) {
+    const self = this;
     getData(lang || 'en').then((data) => {
-      this.setState(data);
+      self.setState(data);
+    }).catch((error) => {
+      console.dir(error);
+      if (lang === 'uk') {
+        self.setState({ data: dataUk });
+      } else {
+        self.setState({ data: dataEn });
+      }
     });
   }
 
