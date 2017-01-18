@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 function TwoWheeledChronicles(props) {
   return (
     <div id="twowheeledchronicles" className="bg-1">
-      <div className="container">
+      <div className="container space">
         <h3 className="text-center">{props.data.header}</h3>
         <div className="two-wheeled">
           {props.data.text1}<br /><br />

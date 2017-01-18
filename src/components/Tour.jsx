@@ -8,7 +8,7 @@ import ListGroupItem from 'react-bootstrap/lib/ListGroupItem';
 
 function Tour(props) {
   return (
-    <div id="tour" className="container">
+    <div id="tour" className="container space">
       <h3 className="text-center">{props.data.header}</h3>
       <p className="text-center">{props.data.text}</p>
       <p>{props.data.date1}  -  {props.data.place1}  -  {props.data.moreinfo1}  -  {props.data.price1}

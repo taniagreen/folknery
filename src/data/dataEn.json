@@ -95,7 +95,9 @@
     },
     "albums": {
         "header": "ALBUMS",
-        "album_name": "Useful things",
+        "album_name": "Album 'Useful things' (2015)",
+        "googleplay_button": "/Images/googleplay_en.png",
+        "itunes_button": "/Images/itunes_en.png",
         "soundCloudTrack": [
             {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159619990&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
@@ -154,28 +156,28 @@
     "singles": {
         "header": "SINGLES",
         "soundCloudTrack":  [
-             {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530127&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+             {                                  
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530127&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Evrokolomyiky"
-            },
-             {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530511&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+            }, 
+             {                                  
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530511&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "EuroHoydalka"
             },
-             {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215672783&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+             {                                  
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215672783&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery & Roham Azarpira - Kolyadka Na Zhe"
             },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231801446&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+            {                                  
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231801446&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery Feat Yan Tychkovskyi - Halynka"
             },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238206117&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+            {                                  
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238206117&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery - U Lisi"
             },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268826628&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
+            {                                  
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268826628&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery & Alex Vaghin - Dorizhechka"
             }
         ]

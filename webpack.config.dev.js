@@ -14,6 +14,7 @@ export default {
   entry: [
     // must be first entry to properly set public path
     './src/webpack-public-path',
+    'babel-polyfill',
     'webpack-hot-middleware/client?reload=true',
     './src/index',
   ],

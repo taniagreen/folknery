@@ -29,7 +29,7 @@ class Music extends React.Component {
     });
     return (
       <div id="music" className="bg-1">
-        <div className="container">
+        <div className="container space">
           <h3 className="text-center">{this.props.header}</h3>
           <div className="videoWrapper">
             <iframe src={this.props.videos[this.state.currentVideoIndex].videoSrc} frameBorder="0" allowFullScreen />

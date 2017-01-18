@@ -16,7 +16,7 @@ function TopMenu(props) {
   }
   return (
     <div className="top-menu">
-      <Navbar fixedTop fluid>
+      <Navbar fixedTop fluid collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <a href=""><img className="logoTop" src={props.data.logo} alt="Logo" /></a>
@@ -25,10 +25,10 @@ function TopMenu(props) {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#music">{props.data.music}</NavItem>
-            <NavItem eventKey={2} href="#tour">{props.data.tour}</NavItem>
-            <NavItem eventKey={3} href="#twowheeledchronicles">{props.data.twowheeledchronicles}</NavItem>
-            <NavItem eventKey={4} href="#contact">{props.data.contact}</NavItem>
+            <NavItem eventKey="music" href="#"><Link to="#music">{props.data.music}</Link></NavItem>
+            <NavItem eventKey="tour" href="#"><Link to="#tour">{props.data.tour}</Link></NavItem>
+            <NavItem eventKey="twowheeledchronicles" href="#"><Link to="#twowheeledchronicles">{props.data.twowheeledchronicles}</Link></NavItem>
+            <NavItem eventKey="contact" href="#"><Link to="#contact">{props.data.contact}</Link></NavItem>
             <NavItem eventKey={5} href="#">{lang}</NavItem>
           </Nav>
         </Navbar.Collapse>

@@ -12,7 +12,7 @@ class Singles extends React.Component {
     const items = [];
     this.props.soundCloudTrack.forEach((item, index) => {
       items.push(
-        <Col key={index} lg={3} sm={6} xs={12} md={3}>
+        <Col key={index} lg={12} sm={12} xs={12} md={12}>
           <iframe
             width="100%"
             scrolling="no"
@@ -24,7 +24,7 @@ class Singles extends React.Component {
     });
     return (
       <div className="bg-1">
-        <div className="container">
+        <div className="container space">
           <h3 className="text-center">{this.props.header}</h3>
           <Grid>
             <Row>
