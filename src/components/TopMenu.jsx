@@ -1,40 +1,58 @@
 import React, { PropTypes } from 'react';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 import Nav from 'react-bootstrap/lib/Nav';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import NavItem from 'react-bootstrap/lib/NavItem';
 
 
-function TopMenu(props) {
-  let lang = {};
-  if (props.lang === 'uk') {
-    const boundOnLangChange = props.onLangChange.bind(this, 'en');
-    lang = <Link onClick={boundOnLangChange} to="/">EN</Link>;
-  } else {
-    const boundOnLangChange = props.onLangChange.bind(this, 'uk');
-    lang = <Link onClick={boundOnLangChange} to="/uk/">UK</Link>;
+class TopMenu extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.onMenuItemSelect = this.onMenuItemSelect.bind(this);
   }
-  return (
-    <div className="top-menu">
-      <Navbar fixedTop fluid collapseOnSelect>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <a href=""><img className="logoTop" src={props.data.logo} alt="Logo" /></a>
-          </Navbar.Brand>
-          <Navbar.Toggle />
-        </Navbar.Header>
-        <Navbar.Collapse>
-          <Nav pullRight>
-            <NavItem eventKey="music" href="#"><Link to="#music">{props.data.music}</Link></NavItem>
-            <NavItem eventKey="tour" href="#"><Link to="#tour">{props.data.tour}</Link></NavItem>
-            <NavItem eventKey="twowheeledchronicles" href="#"><Link to="#twowheeledchronicles">{props.data.twowheeledchronicles}</Link></NavItem>
-            <NavItem eventKey="contact" href="#"><Link to="#contact">{props.data.contact}</Link></NavItem>
-            <NavItem eventKey={5} href="#">{lang}</NavItem>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
-  );
+
+  onMenuItemSelect(eventKey) {
+    if (eventKey === 'lang') {
+      if (this.props.lang === 'uk') {
+        window.location = '/';
+      } else {
+        window.location = '/uk/';
+      }
+    } else {
+      window.location.hash = eventKey;
+    }
+  }
+
+  render() {
+    let lang = {};
+    if (this.props.lang === 'uk') {
+      lang = 'EN';
+    } else {
+      lang = 'UK';
+    }
+    return (
+      <div className="top-menu">
+        <Navbar fixedTop fluid collapseOnSelect onSelect={this.onMenuItemSelect}>
+          <Navbar.Header>
+            <Navbar.Brand>
+              <a href=""><img className="logoTop" src={this.props.data.logo} alt="Logo" /></a>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+            <Nav pullRight>
+              <NavItem eventKey="music" href="#">{this.props.data.music}</NavItem>
+              <NavItem eventKey="tour" href="#">{this.props.data.tour}</NavItem>
+              <NavItem eventKey="twowheeledchronicles" href="#">{this.props.data.twowheeledchronicles}</NavItem>
+              <NavItem eventKey="contact" href="#">{this.props.data.contact}</NavItem>
+              <NavItem eventKey="lang" href="#">{lang}</NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
+    );
+  }
 }
 
 TopMenu.propTypes = {
