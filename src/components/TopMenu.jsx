@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { Link, browserHistory } from 'react-router';
+import { browserHistory, Link } from 'react-router';
 import Nav from 'react-bootstrap/lib/Nav';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import NavItem from 'react-bootstrap/lib/NavItem';
@@ -15,9 +15,9 @@ class TopMenu extends React.Component {
   onMenuItemSelect(eventKey) {
     if (eventKey === 'lang') {
       if (this.props.lang === 'uk') {
-        window.location = '/';
+        browserHistory.push('/');
       } else {
-        window.location = '/uk/';
+        browserHistory.push('/uk/');
       }
     } else {
       window.location.hash = eventKey;
@@ -31,12 +31,13 @@ class TopMenu extends React.Component {
     } else {
       lang = 'UK';
     }
+
     return (
       <div className="top-menu">
         <Navbar fixedTop fluid collapseOnSelect onSelect={this.onMenuItemSelect}>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href=""><img className="logoTop" src={this.props.data.logo} alt="Logo" /></a>
+              <img className="logoTop" src={this.props.data.logo} alt="Logo" />
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

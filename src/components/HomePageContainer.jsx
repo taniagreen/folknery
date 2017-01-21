@@ -15,7 +15,7 @@ class HomePageContainer extends React.Component {
   }
 
   componentDidMount() {
-    this.setDataFromApi(this.props.params.lang);
+    // this.setDataFromApi(this.props.params.lang);
   }
 
   onLangChange(lang) {
@@ -44,8 +44,9 @@ class HomePageContainer extends React.Component {
   }
 
   render() {
-    const homePage = (this.state && this.state.data)
-      ? <HomePage onLangChange={this.setDataFromApi} data={this.state.data} lang={this.props.params.lang || 'en'} />
+    const data = this.props.params.lang === 'uk' ? dataUk : dataEn;
+    const homePage = data
+      ? <HomePage onLangChange={this.setDataFromApi} data={data} lang={this.props.params.lang || 'en'} />
       : <div />;
     return (homePage);
   }
