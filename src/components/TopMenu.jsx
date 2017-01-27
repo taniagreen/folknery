@@ -37,7 +37,7 @@ class TopMenu extends React.Component {
         <Navbar fixedTop fluid collapseOnSelect onSelect={this.onMenuItemSelect}>
           <Navbar.Header>
             <Navbar.Brand>
-              <img className="logoTop" src={this.props.data.logo} alt="Logo" />
+              <a href="#"><img className="logoTop" src={this.props.data.logo} alt="Folknery" /></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

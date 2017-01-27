@@ -47,12 +47,7 @@
     },
     "about": {
         "header": "THE BAND",
-        "text1": "The name Folknery comes from the name of both the American writer William Faulkner and the term \"folklore\". According to Volodymyr Muliar's words, during the cycling trip to Abkhazia, while searching the band name, Sir William Faulkner came in his dreams proposing to use his last name as a name of the band. By an amazing coincidence, it was consonant with the term \"folklore\", the subject of the band's activity.",
-        "text2": "The band was founded in Kyiv, Ukraine, by Volodymyr Muliar and Yaryna Kvitka in 2009. Before, Volodymyr played drums in several rock bands in his hometown of Khmelnytsky and Yaryna (originally from Stryi, Lviv region) was engaged in folk singing at the Kyiv ethno-band \"Rozhanytsia\". After meeting in 2008, both shared an interest in cycling trips and folk music. In 2009 in a joint cycling trip to Abkhazia the couple performed publicly for the first time on the streets of several cities. Soon, Volodymyr and Yaryna recorded together their own version of Ukrainian folk song \"Da zyma nasha biela\" and began to seek actively musicians to supplement the group.",
-        "text3": "At the beginning of 2010 the group joined vocalist Yulia Sovershenna also a member of the group \"Rozhanytsia\" and while some time Folknery were working as three members. At that time was formed the musical style of the band – a mix of authentic Ukrainian singing in free-folk arrangement involving elements of different trends of the world folk and popular music, as well as unusual musical instruments: hurdy gurdy, African Djembe and others. This line-up recorded the song \"Vyplyvalo utenya\" and the first music video (directed by Oksana Kazmina, cameraman Maxim Hutsu). The video was presented at the festival \"Trypilske Kolo\" 2010.",
-        "text4": "In 2011 Folknery began a concert activity with increased line-up: accordionist Ostap Danyliv and percussionist Roman Sharkevych joined the band. Since then, the group has performed at the renowned festivals in Ukraine and abroad, \"ArtPole\", \"Kraina Mriy\", \"Trypilske kolo\", \"Terra Heroica\", \"Rozhanytsia\", \"Trypilski zori\", \"Rok-Koliada\", \"Mlynomaniya\", \"Cheremosh fest\"; \"Mikołajki Folkowe\", \"Sabałowe Bajania\", \"Letnija Akademija Filmowa w Zwierzyńcu\", \"Muzyczne Dialogi nad Bugiem\", \"Jarmark Jagelonski\" (Poland); \"Mėnuo Juodaragis\" (Lithuania); \"Kamyanitsa\" (Belarus).\n In December 2011 Folknery became the best ethnic band at the International festival-contest \"Mikołajki Folkowe\" (Lublin, Poland). Besides the 1st prize, band also won the \"Audience Award\".\n In 2012 Ostap Danyliv was replaced by Iryna Viryasova, Roman Sharkevych left the band and Dmytro Sorokin joined as the guitarist. In early 2013 the band presented the new video for the song \"Rozova – byeryozova\" (directed by Maryna Hryshai, cameraman Maksym Zaika), which won the film festival \"Vision\" (Kemerovo, Russia, 2013).",
-        "text5": "At the festival \"Cherwona Ruta – 2013\" Folknery won the I award in the genre of \"acoustic music\".",
-        "text6": "During the Days of Ukraine in Great Britain (October 2013) group represented the musical Ukraine, performing in the heart of London on the same stage with bands Vopli Vidopliassova, Kozak System and Taras Chubay.",
+        "text": "The name Folknery comes from the name of both the American writer William Faulkner and the term \"folklore\". According to Volodymyr Muliar's words, during the cycling trip to Abkhazia, while searching the band name, Sir William Faulkner came in his dreams proposing to use his last name as a name of the band. By an amazing coincidence, it was consonant with the term \"folklore\", the subject of the band's activity.",
         "personY": "Yaryna Kvitka",
         "personV": "Volodymyr Muliar",
         "personYdescr": "singing, percussion, wheel lyre, guimbarde",
@@ -86,7 +81,7 @@
                 "photoSrc": "/Images/video6.png",
                 "alt": "Vyplyvalo utenia"
             },
-                        {
+            {
                 "videoSrc": "https://www.youtube.com/embed/pLFM2hHCEWQ",
                 "photoSrc": "/Images/video10.png",
                 "alt": "Koliadka na Zhe"
@@ -155,28 +150,28 @@
     },
     "singles": {
         "header": "SINGLES",
-        "soundCloudTrack":  [
-             {                                  
+        "soundCloudTrack": [
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530127&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Evrokolomyiky"
-            }, 
-             {                                  
+            },
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530511&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "EuroHoydalka"
             },
-             {                                  
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215672783&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery & Roham Azarpira - Kolyadka Na Zhe"
             },
-            {                                  
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231801446&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery Feat Yan Tychkovskyi - Halynka"
             },
-            {                                  
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238206117&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery - U Lisi"
             },
-            {                                  
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268826628&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery & Alex Vaghin - Dorizhechka"
             }
@@ -184,25 +179,14 @@
     },
     "tour": {
         "header": "TOUR DATES",
-        "text": "We will be happy to see you on our next concert!",
-        "label": "New!",
-        "place1": "Rio (Brasil)",
-        "place2": "Sydney (Australia)",
-        "place3": "Kyiv, Ukraine",
-        "moreinfo1": "Club 'Corona'",
-        "moreinfo2": "Summer Theatre",
-        "date1": "19/12/2016 20:00",
-        "date2": "25/12/2016 19:00",
-        "price1": "$10",
-        "price2": "free"
+        "subheader": "We will be happy to see you on our next concert!",
+        "text": "6.11.2016 - Sydney, Australia, live at Hatha Yoga Space, 62 Railway Parade, Kogarah, NSW. Starts at 5 p.m.\n 24.03.2016 - Melbourne, Australia, Oussou Bar, 653 Sydney Rd. Starts at 9 p.m.\n 20.03.2016 - Melbourne, Australia, Shevchenko Fest\n 13.03.2016 - Adelaide, Australia, Kozak Bar, Ukrainian Hall, 64-66 Orsmond St, Hindmarsh. Starts at 5:30 p.m.\n 13.03.2016 - Adelaide, Australia, \"A toast to Taras Shevchenko\" concert, Ukrainian Hall, 64-66 Orsmond St, Hindmarsh. Starts at 3 p.m.\n 7.03.2016 - Canberra, Australia, live at Smith’s Alternative, 76 Alinga St. Starts at 9:30 p.m.\n 6.03.2016 - Canberra, Australia, Shevchenko Days, St.Volodymyr church. Starts at 12 p.m.\n 28.02.2016 - Sydney, Australia, live at Hatha Yoga Space, 62 Railway Parade, Kogarah, NSW. Starts at 5 p.m.\n 27.02.2016 - Sydney, Australia, meeting with Ukrainian school students. Starts at 11 a.m.\n 24.02.2016 - Sydney, Australia, live at The Gasoline Pony, 115 Marrickville Rd, Marrickville. Starts at 8:30 p.m.\n 21.02.2016 - Sydney, Australia, концерт-презентація в Ukrainian Youth Centre, 3 John St, Lidcombe. Starts at 1 p.m.\n 20.02.2016 - FINISH OF THE FIRST STAGE OF CYCLING EXPEDITION \"TWO-WHEELED CHRONICLES\" - Sydney, Australia, Hicksons Reserve, 11 a.m. \n 31.01.2016 - Byron Bay, Australia, live at CulchaJam, Starts at 7 p.m.\n 23.01.2016 - Ukrainian community meeting, Brisbane, Australia\n 22.01.2016 – Brisbane, Australia, Steven Bowerman's Vision Gallery. Starts at 9 p.m.\n 16.01.2016 - Malanka celebration, Geelong, Cunningham pier. Starts at 7 p.m.\n 15.01.2016 - Malanka celebration, Melbourne, Essendon, Ukrainian Hall. Starts at 6:30 p.m.\n 11.01.2016 - Bar Oussou, Melbourne, Australia. Starts at 8 p.m.\n 10.01.2016 - Ukrainian Catholic Parish OF The Protection Of The Mother of God, Geelong, Australia. Starts at 5 p.m.\n 10.01.2016 - Ukrainian Catholic Eparchy of Sts Peter and Paul of Melbourne, Australia. Starts at 10:30 a.m.\n 9.01.2016 - Musicland, Melbourne, Australia. Starts at 8:30 pm\n 28-29.09.2015 – Indonesia, festival\"Asia Tri\".\n 26.09.2015 – Yogyakarta, Indonesia, Kmeals bar. Starts at 6:30 p.m.\n 25.09.2015 – Yogyakarta, Indonesia, festival \"Jogjal International Street Performing Arts\".\n 27.08.2015 – Palembang, Indonesia, \"D'fab Social&Food\". Starts at 7:30 p.m.\n 9.08.2015 – Semenyih, Malaysia, \"12 Cafe\". Starts at 8 p.m.\n 7.08.2015 – Kuala-Lumpur, Malaysia, \"Rumah Api\". Starts at 9 p.m.\n 31.07.2015 – Georgetown, Penang island, Malaysia, Clock Wise hostel. Starts at 7 p.m.\n 26.07.2015 – Georgetown, Penang island, Malaysia, \"Reggae Club\". Starts at 9 p.m.\n 18.07.2015 – Hat Yai, Thailand, art cafe \"The Village\". Starts at 8:30 p.m.\n 1.10.2014 - Start of Folknery's bicycle expedition from Ukraine to Australia, Independence Square, Kyiv, Ukraine."
     },
     "twoWheeledChronicles": {
         "button_text": "More details",
         "header": "TWO-WHEELED CHRONICLES",
-        "text1": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
-        "text2": "Visit our ",
-        "text3": "Two-Wheeled Chronicles",
-        "text4": " website to find out more about our adventures.",
+        "text": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
+        "text_link": "Two-Wheeled Chronicles",
         "exp_link": "http://twowheeledchronicles.com/en/"
     },
     "contacts": {

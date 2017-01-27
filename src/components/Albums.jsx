@@ -12,7 +12,7 @@ class Albums extends React.Component {
         <div className="text-center">
           <div>
             <h4>{this.props.album_name}</h4>
-            <iframe width="60%" height="450" frameBorder="0" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/127053898&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
+            <iframe width="60%" height="650" frameBorder="0" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/127053898&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" />
           </div>
           <div className="row">
             <a href="https://play.google.com/store/music/artist/Folknery?id=A6vostbtw6b7n3nmstbk2flpq5e" rel="noopener noreferrer" target="_blank">

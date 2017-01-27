@@ -5,13 +5,11 @@ function TwoWheeledChronicles(props) {
     <div id="twowheeledchronicles" className="bg-1">
       <div className="container space">
         <h3 className="text-center">{props.data.header}</h3>
-        <div className="two-wheeled">
-          {props.data.text1}<br /><br />
-          {props.data.text2}
-          <a href="http://www.twowheeledchronicles.com" target="blank">
-            {props.data.text3}
+        <div className="two-wheeled multiline">
+          {props.data.text}
+          <a href={props.data.exp_link} target="blank">
+            {props.data.text_link}
           </a>
-          {props.data.text4}<br /><br />
         </div>
         <div className="text-center">
           <a href={props.data.exp_link} target="blank">

@@ -4,12 +4,9 @@ function About(props) {
   return (
     <div className="container">
       <h3 className="text-center">{props.data.header}</h3>
-      {props.data.text1}<br /><br />
-      {props.data.text2}<br /><br />
-      {props.data.text3}<br /><br />
-      {props.data.text4}<br /><br />
-      {props.data.text5}<br /><br />
-      {props.data.text6}<br /><br />
+      <div className="multiline">
+        {props.data.text}
+      </div>
       <div className="row">
         <div className="col-sm-1" />
         <div className="col-sm-10">
