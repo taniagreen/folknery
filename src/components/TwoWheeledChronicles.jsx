@@ -5,7 +5,7 @@ function TwoWheeledChronicles(props) {
     <div id="twowheeledchronicles" className="bg-1">
       <div className="container space">
         <h3 className="text-center">{props.data.header}</h3>
-        <div className="two-wheeled multiline">
+        <div className="multiline two-wheeled">
           {props.data.text}
           <a href={props.data.exp_link} target="blank">
             {props.data.text_link}

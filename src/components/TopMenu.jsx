@@ -43,6 +43,7 @@ class TopMenu extends React.Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
+              <NavItem eventKey="about" href="#">{this.props.data.about}</NavItem>
               <NavItem eventKey="music" href="#">{this.props.data.music}</NavItem>
               <NavItem eventKey="tour" href="#">{this.props.data.tour}</NavItem>
               <NavItem eventKey="twowheeledchronicles" href="#">{this.props.data.twowheeledchronicles}</NavItem>

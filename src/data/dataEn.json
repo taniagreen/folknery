@@ -2,6 +2,7 @@
     "footerText": "Created with love by",
     "topMenu": {
         "logo": "./Images/logo_en_2.png",
+        "about": "ABOUT",
         "music": "MUSIC/VIDEO",
         "tour": "TOUR",
         "twowheeledchronicles": "TWO-WHEELED CHRONICLES",
@@ -47,7 +48,7 @@
     },
     "about": {
         "header": "THE BAND",
-        "text": "The name Folknery comes from the name of both the American writer William Faulkner and the term \"folklore\". According to Volodymyr Muliar's words, during the cycling trip to Abkhazia, while searching the band name, Sir William Faulkner came in his dreams proposing to use his last name as a name of the band. By an amazing coincidence, it was consonant with the term \"folklore\", the subject of the band's activity.",
+        "text": "Folknery was created in 2009 by Volodymyr Muliar and Yaryna Kvitka. Since then the band played with different members on small and big stages in various countries, took part in festivals and won contests such as Mikolajki Folkowe (Poland), Euroradio Folk Festival (Sweden), ArtPole (Ukraine), Asia Tri (Indonesia), Menuo Juodaragis (Lithuania), Jarmark Jagelonski (Poland), Kamianitsa (Belarus), Kraina Mriy (Ukraine), Sabalowe Bajania (Poland), Muzyczne Dialogi nad Bugiem (Poland), Trypilske Kolo (Ukraine), Chervona Ruta (Ukraine) and more.\n\n Folknery is a combination of Ukrainian folklore and musical energy of the world.\n This is \"white\" singing accompanied by \"black\" drum rage.\n This is ethnographic travelling through the villages for finding forgotten songs.\n This is unconventional sounding of traditional songs.\n\n Currently Volodymyr and Yaryna with their baby Marco are making bike journey around the world as a part of their cultural travelling project \"Two-Wheeled Chronicles\".\n\n",
         "personY": "Yaryna Kvitka",
         "personV": "Volodymyr Muliar",
         "personYdescr": "singing, percussion, wheel lyre, guimbarde",
@@ -185,8 +186,8 @@
     "twoWheeledChronicles": {
         "button_text": "More details",
         "header": "TWO-WHEELED CHRONICLES",
-        "text": "Travelling by bicycle searching for authentic folklore, interesting lands, meeting colorful people, fascinating (and sometimes dangerous) adventures, continuous endurance test (sometimes not just physical) and songs, songs, songs... This is all about 'Two-wheeled Chronicles' project of Folknery.",
-        "text_link": "Two-Wheeled Chronicles",
+        "text": "Folknery has their own cultural travelling project called \"Two-Wheeled Chronicles\", the main goals of which are popularization of Ukrainian culture in the world and make people be interested in Ukrainian folklor and ecotourism. We are travelling on bicycles towards other nations for sharing our songs, for recording their songs and sometimes for creating ollective music. Since 2010 within \"Two-Wheeled Chronicles\" we have made 6 massive Ukrainian and world bike expeditions with the whole length of 35000 km and with visiting 22 countries.\n\n Currently we are making bike journey around the world with our baby Marco who was born during this journey.\n\n Learn more on the ",
+        "text_link": "official web site of \"Two-Wheeled Chronicles\" project",
         "exp_link": "http://twowheeledchronicles.com/en/"
     },
     "contacts": {

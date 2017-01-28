@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 
 function About(props) {
   return (
-    <div className="container">
+    <div id="about" className="container space">
       <h3 className="text-center">{props.data.header}</h3>
       <div className="multiline">
         {props.data.text}
