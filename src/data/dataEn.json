@@ -181,7 +181,132 @@
     "tour": {
         "header": "TOUR DATES",
         "subheader": "We will be happy to see you on our next concert!",
-        "text": "6.11.2016 - Sydney, Australia, live at Hatha Yoga Space, 62 Railway Parade, Kogarah, NSW. Starts at 5 p.m.\n 24.03.2016 - Melbourne, Australia, Oussou Bar, 653 Sydney Rd. Starts at 9 p.m.\n 20.03.2016 - Melbourne, Australia, Shevchenko Fest\n 13.03.2016 - Adelaide, Australia, Kozak Bar, Ukrainian Hall, 64-66 Orsmond St, Hindmarsh. Starts at 5:30 p.m.\n 13.03.2016 - Adelaide, Australia, \"A toast to Taras Shevchenko\" concert, Ukrainian Hall, 64-66 Orsmond St, Hindmarsh. Starts at 3 p.m.\n 7.03.2016 - Canberra, Australia, live at Smith’s Alternative, 76 Alinga St. Starts at 9:30 p.m.\n 6.03.2016 - Canberra, Australia, Shevchenko Days, St.Volodymyr church. Starts at 12 p.m.\n 28.02.2016 - Sydney, Australia, live at Hatha Yoga Space, 62 Railway Parade, Kogarah, NSW. Starts at 5 p.m.\n 27.02.2016 - Sydney, Australia, meeting with Ukrainian school students. Starts at 11 a.m.\n 24.02.2016 - Sydney, Australia, live at The Gasoline Pony, 115 Marrickville Rd, Marrickville. Starts at 8:30 p.m.\n 21.02.2016 - Sydney, Australia, концерт-презентація в Ukrainian Youth Centre, 3 John St, Lidcombe. Starts at 1 p.m.\n 20.02.2016 - FINISH OF THE FIRST STAGE OF CYCLING EXPEDITION \"TWO-WHEELED CHRONICLES\" - Sydney, Australia, Hicksons Reserve, 11 a.m. \n 31.01.2016 - Byron Bay, Australia, live at CulchaJam, Starts at 7 p.m.\n 23.01.2016 - Ukrainian community meeting, Brisbane, Australia\n 22.01.2016 – Brisbane, Australia, Steven Bowerman's Vision Gallery. Starts at 9 p.m.\n 16.01.2016 - Malanka celebration, Geelong, Cunningham pier. Starts at 7 p.m.\n 15.01.2016 - Malanka celebration, Melbourne, Essendon, Ukrainian Hall. Starts at 6:30 p.m.\n 11.01.2016 - Bar Oussou, Melbourne, Australia. Starts at 8 p.m.\n 10.01.2016 - Ukrainian Catholic Parish OF The Protection Of The Mother of God, Geelong, Australia. Starts at 5 p.m.\n 10.01.2016 - Ukrainian Catholic Eparchy of Sts Peter and Paul of Melbourne, Australia. Starts at 10:30 a.m.\n 9.01.2016 - Musicland, Melbourne, Australia. Starts at 8:30 pm\n 28-29.09.2015 – Indonesia, festival\"Asia Tri\".\n 26.09.2015 – Yogyakarta, Indonesia, Kmeals bar. Starts at 6:30 p.m.\n 25.09.2015 – Yogyakarta, Indonesia, festival \"Jogjal International Street Performing Arts\".\n 27.08.2015 – Palembang, Indonesia, \"D'fab Social&Food\". Starts at 7:30 p.m.\n 9.08.2015 – Semenyih, Malaysia, \"12 Cafe\". Starts at 8 p.m.\n 7.08.2015 – Kuala-Lumpur, Malaysia, \"Rumah Api\". Starts at 9 p.m.\n 31.07.2015 – Georgetown, Penang island, Malaysia, Clock Wise hostel. Starts at 7 p.m.\n 26.07.2015 – Georgetown, Penang island, Malaysia, \"Reggae Club\". Starts at 9 p.m.\n 18.07.2015 – Hat Yai, Thailand, art cafe \"The Village\". Starts at 8:30 p.m.\n 1.10.2014 - Start of Folknery's bicycle expedition from Ukraine to Australia, Independence Square, Kyiv, Ukraine."
+        "items": [
+          {
+            "date": "06.11.2016",
+            "description": "Sydney, Australia, live at Hatha Yoga Space, 62 Railway Parade, Kogarah, NSW. Starts at 5 p.m."
+          },
+          {
+            "date": "24.03.2016",
+            "description": "Melbourne, Australia, Oussou Bar, 653 Sydney Rd. Starts at 9 p.m."
+          },
+          {
+            "date": "20.03.2016",
+            "description": "Melbourne, Australia, Shevchenko Fest"
+          },
+          {
+            "date": "13.03.2016",
+            "description": "Adelaide, Australia, Kozak Bar, Ukrainian Hall, 64-66 Orsmond St, Hindmarsh. Starts at 5:30 p.m."
+          },
+          {
+            "date": "13.03.2016",
+            "description": "Adelaide, Australia, \"A toast to Taras Shevchenko\" concert, Ukrainian Hall, 64-66 Orsmond St, Hindmarsh. Starts at 3 p.m."
+          },
+          {
+            "date": "07.03.2016",
+            "description": "Canberra, Australia, live at Smith’s Alternative, 76 Alinga St. Starts at 9:30 p.m."
+          },
+          {
+            "date": "06.03.2016",
+            "description": "Canberra, Australia, Shevchenko Days, St.Volodymyr church. Starts at 12 p.m."
+          },
+          {
+            "date": "28.02.2016",
+            "description": "Sydney, Australia, live at Hatha Yoga Space, 62 Railway Parade, Kogarah, NSW. Starts at 5 p.m."
+          },
+          {
+            "date": "27.02.2016",
+            "description": "Sydney, Australia, meeting with Ukrainian school students. Starts at 11 a.m."
+          },
+          {
+            "date": "24.02.2016",
+            "description": "Sydney, Australia, live at The Gasoline Pony, 115 Marrickville Rd, Marrickville. Starts at 8:30 p.m."
+          },
+          {
+            "date": "21.02.2016",
+            "description": "Sydney, Australia, концерт-презентація в Ukrainian Youth Centre, 3 John St, Lidcombe. Starts at 1 p.m."
+          },
+          {
+            "date": "20.02.2016",
+            "description": "FINISH OF THE FIRST STAGE OF CYCLING EXPEDITION \"TWO-WHEELED CHRONICLES\" - Sydney, Australia, Hicksons Reserve, 11 a.m."
+          },
+          {
+            "date": "31.01.2016",
+            "description": "Byron Bay, Australia, live at CulchaJam, Starts at 7 p.m."
+          },
+          {
+            "date": "23.01.2016",
+            "description": "Ukrainian community meeting, Brisbane, Australia"
+          },
+          {
+            "date": "22.01.2016",
+            "description": "Brisbane, Australia, Steven Bowerman's Vision Gallery. Starts at 9 p.m."
+          },
+          {
+            "date": "16.01.2016",
+            "description": "Malanka celebration, Geelong, Cunningham pier. Starts at 7 p.m."
+          },
+          {
+            "date": "15.01.2016",
+            "description": "Malanka celebration, Melbourne, Essendon, Ukrainian Hall. Starts at 6:30 p.m."
+          },
+          {
+            "date": "11.01.2016",
+            "description": "Bar Oussou, Melbourne, Australia. Starts at 8 p.m."
+          },
+          {
+            "date": "10.01.2016",
+            "description": "Ukrainian Catholic Parish OF The Protection Of The Mother of God, Geelong, Australia. Starts at 5 p.m."
+          },
+          {
+            "date": "10.01.2016",
+            "description": "Ukrainian Catholic Eparchy of Sts Peter and Paul of Melbourne, Australia. Starts at 10:30 a.m."
+          },
+          {
+            "date": "09.01.2016",
+            "description": "Musicland, Melbourne, Australia. Starts at 8:30 pm"
+          },
+          {
+            "date": "28-29.09.2015",
+            "description": "Indonesia, festival\"Asia Tri\""
+          },
+          {
+            "date": "26.09.2015",
+            "description": "Yogyakarta, Indonesia, Kmeals bar. Starts at 6:30 p.m."
+          },
+          {
+            "date": "25.09.2015",
+            "description": "Yogyakarta, Indonesia, festival \"Jogjal International Street Performing Arts\""
+          },
+          {
+            "date": "27.08.2015",
+            "description": "Palembang, Indonesia, \"D'fab Social&Food\". Starts at 7:30 p.m."
+          },
+          {
+            "date": "09.08.2015",
+            "description": "Semenyih, Malaysia, \"12 Cafe\". Starts at 8 p.m."
+          },
+          {
+            "date": "07.08.2015",
+            "description": "Kuala-Lumpur, Malaysia, \"Rumah Api\". Starts at 9 p.m."
+          },
+          {
+            "date": "31.07.2015",
+            "description": "Georgetown, Penang island, Malaysia, Clock Wise hostel. Starts at 7 p.m."
+          },
+          {
+            "date": "26.07.2015",
+            "description": "Georgetown, Penang island, Malaysia, \"Reggae Club\". Starts at 9 p.m."
+          },
+          {
+            "date": "18.07.2015",
+            "description": "Hat Yai, Thailand, art cafe \"The Village\". Starts at 8:30 p.m."
+          },
+          {
+            "date": "01.10.2014",
+            "description": "Start of Folknery's bicycle expedition from Ukraine to Australia, Independence Square, Kyiv, Ukraine."
+          }
+        ]
     },
     "twoWheeledChronicles": {
         "button_text": "More details",

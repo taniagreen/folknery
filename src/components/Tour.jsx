@@ -1,17 +1,21 @@
 import React, { PropTypes } from 'react';
-import Tab from 'react-bootstrap/lib/Tab';
+
+import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
-import Nav from 'react-bootstrap/lib/Nav';
-import NavItem from 'react-bootstrap/lib/NavItem';
-import ListGroup from 'react-bootstrap/lib/ListGroup';
-import ListGroupItem from 'react-bootstrap/lib/ListGroupItem';
 
 function Tour(props) {
+  const tours = props.data.items.map(item => (
+    <Row>
+      <Col xs={2}><i>{item.date}</i></Col>
+      <Col xs={10}>{item.description}</Col>
+    </Row>
+  ));
+
   return (
     <div id="tour" className="container space">
       <h3 className="text-center">{props.data.header}</h3>
-      <div className="multiline">
-        {props.data.text}
+      <div>
+        {tours}
       </div>
     </div>
   );

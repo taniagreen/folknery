@@ -1,5 +1,8 @@
 import React, { PropTypes } from 'react';
 
+import Col from 'react-bootstrap/lib/Col';
+import Row from 'react-bootstrap/lib/Row';
+
 function About(props) {
   return (
     <div id="about" className="container space">
@@ -7,29 +10,30 @@ function About(props) {
       <div className="multiline">
         {props.data.text}
       </div>
-      <div className="row">
-        <div className="col-sm-1" />
-        <div className="col-sm-10">
-          <div className="col-sm-1" />
-          <div className="col-sm-4 text-center">
-            <p><strong>{props.data.personY}</strong></p><br />
+      <Row>
+        <Col mdOffset={1} md={10} sm={12}>
+          <Col mdOffset={1} md={4} sm={6} className="text-center">
+            <p><strong>{props.data.personY}</strong></p>
             <a>
               <img src="/Images/folk1.jpg" alt="Yaryna Kvitka" className="img-circle person" width="255" height="255" />
             </a>
-            <p>{props.data.personYdescr}</p>
-          </div>
-          <div className="col-sm-2" />
-          <div className="col-sm-4 text-center">
-            <p><strong>{props.data.personV}</strong></p><br />
+            <p className="margin-bottom-md">{props.data.personYdescr}</p>
+          </Col>
+          <Col mdOffset={2} md={4} sm={6} className="text-center">
+            <p><strong>{props.data.personV}</strong></p>
             <a>
-              <img src="/Images/folk2.jpg" alt="Volodymyr Muliar" className="img-circle person" width="255" height="255" />
+              <img
+                src="/Images/folk2.jpg"
+                alt="Volodymyr Muliar"
+                className="img-circle person"
+                width="255"
+                height="255"
+              />
             </a>
-            <p>{props.data.personVdescr}</p>
-          </div>
-          <div className="col-sm-1" />
-        </div>
-        <div className="col-sm-1" />
-      </div>
+            <p className="margin-bottom-md">{props.data.personVdescr}</p>
+          </Col>
+        </Col>
+      </Row>
     </div>
   );
 }
