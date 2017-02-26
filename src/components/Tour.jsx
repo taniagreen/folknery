@@ -6,8 +6,8 @@ import Row from 'react-bootstrap/lib/Row';
 function Tour(props) {
   const tours = props.data.items.map(item => (
     <Row>
-      <Col xs={2}><i>{item.date}</i></Col>
-      <Col xs={10}>{item.description}</Col>
+      <Col xs={3} sm={2} md={2} lg={1}><i>{item.date}</i></Col>
+      <Col xs={9} sm={10} md={10} lg={11}>{item.description}</Col>
     </Row>
   ));
 
