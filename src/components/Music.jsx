@@ -18,7 +18,7 @@ class Music extends React.Component {
     const items = [];
     this.props.videos.forEach((item, index) => {
       items.push(
-        <Col key={index} xs={12} sm={6} md={2}>
+        <Col key={index} xs={6} sm={3} md={2}>
           <button className="thumbnail" title={item.alt} onClick={this.onVideoSelect} value={index}>
             <img className="videoThumbnail" alt={item.alt} src={item.photoSrc} />
             <img className="videoBtn" alt="" src="../Images/button.png" />
