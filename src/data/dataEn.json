@@ -153,6 +153,10 @@
         "header": "SINGLES",
         "soundCloudTrack": [
             {
+                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/355126019&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
+                "alt": "Folknery - Salvia"
+            },
+            {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530127&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Evrokolomyiky"
             },
@@ -175,10 +179,6 @@
             {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268826628&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Folknery & Alex Vaghin - Dorizhechka"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/355126019&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
-                "alt": "Folknery - Salvia"
             }
         ]
     },
