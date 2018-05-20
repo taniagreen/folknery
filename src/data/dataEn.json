@@ -11,35 +11,7 @@
     "carousel": {
         "photos": [
             {
-                "src": "./Images/01.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/02.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/03.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/04.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/05.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/06.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/07.JPG",
-                "alt": "Folknery"
-            },
-            {
-                "src": "./Images/08.JPG",
+                "src": "./Images/01.jpg",
                 "alt": "Folknery"
             }
         ],
@@ -58,6 +30,11 @@
         "header": "MUSIC/VIDEO",
         "videos": [
             {
+                "videoSrc": "https://www.youtube.com/embed/keGta1oAU2g",
+                "photoSrc": "/Images/video3.png",
+                "alt": "Karchata"
+            },
+            {
                 "videoSrc": "https://www.youtube.com/embed/p2iBNO06LQk",
                 "photoSrc": "/Images/video1.png",
                 "alt": "Dorizhechka"
@@ -66,11 +43,6 @@
                 "videoSrc": "https://www.youtube.com/embed/rvv0YcgewbY",
                 "photoSrc": "/Images/video2.png",
                 "alt": "Halynka"
-            },
-            {
-                "videoSrc": "https://www.youtube.com/embed/keGta1oAU2g",
-                "photoSrc": "/Images/video3.png",
-                "alt": "Karchata"
             },
             {
                 "videoSrc": "https://www.youtube.com/embed/8h1yLALaLxU",
@@ -91,71 +63,14 @@
     },
     "albums": {
         "header": "ALBUMS",
-        "album_name": "Album 'Useful things' (2015)",
+        "album1_name": "Album 'Useful things' (2015)",
+        "album2_name": "Album 'Son' (2018)",
         "googleplay_button": "/Images/googleplay_en.png",
-        "itunes_button": "/Images/itunes_en.png",
-        "soundCloudTrack": [
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159619990&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Da zyma nasha bela"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620334&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Ivan"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620484&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Goydalka"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620636&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Rozova-beriozova (Na kul stala)"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620815&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Pas Vasylko stadom koni"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620904&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Tadi shugay tadi"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159620999&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Karchata"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621348&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Oy, letilo pomelo"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621575&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Schodryi vechor"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621673&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Pannochka"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621783&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Chaynushky"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159621904&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Vesna krasna"
-            },
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159622032&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_artwork=false&amp;show_user=false",
-                "alt": "Vyplyvalo utenia"
-            }
-        ]
+        "itunes_button": "/Images/itunes_en.png"
     },
     "singles": {
         "header": "SINGLES",
         "soundCloudTrack": [
-            {
-                "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/355126019&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
-                "alt": "Folknery - Salvia"
-            },
             {
                 "trackSrc": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164530127&amp;color=2d2d30&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_reposts=false&amp;show_user=true",
                 "alt": "Evrokolomyiky"
