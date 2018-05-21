@@ -8,6 +8,10 @@
   z-index: 100;
 }
 
+.skillsText {
+  margin-top: 75px;
+}
+
 .socIcon {
   height: 35;
   width: 35;
@@ -62,10 +66,6 @@
 
 .person {
   border: 10px solid transparent;
-  margin-bottom: 10px;
-  /*width: 80%;
-    height: 80%;*/
-  //opacity: 0.7;
 }
 
 .person:hover {

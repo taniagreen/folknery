@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { SocialIcon } from 'react-social-icons';
 // import { Link } from 'react-router';
 import TopMenu from './TopMenu';
-import PhotoCarousel from './PhotoCarousel';
+import TopImage from './TopImage';
 import About from './About';
 import Music from './Music';
 import Albums from './Albums';
@@ -55,7 +55,7 @@ function HomePage(props) {
           color="gray"
         />
       </div>
-      <PhotoCarousel data={props.data.carousel} />
+      <TopImage data={props.data.topImage} />
       <About data={props.data.about} />
       <Music {...props.data.music} />
       <Albums {...props.data.albums} />

@@ -1,30 +1,32 @@
 {
     "footerText": "Created with love by",
     "topMenu": {
-        "logo": "./Images/logo_en.png",
+        "logo": "./Images/folk_en.png",
         "about": "ABOUT",
         "music": "MUSIC/VIDEO",
         "tour": "TOUR",
         "twowheeledchronicles": "TWO-WHEELED CHRONICLES",
         "contact": "CONTACT"
     },
+    "topImage": {
+        "src": "./Images/1a.jpg",
+        "alt": "Folknery"
+    },
     "carousel": {
         "photos": [
             {
-                "src": "./Images/01.jpg",
+                "src": "./Images/1a.jpg",
                 "alt": "Folknery"
             }
-        ],
-        "controlNext": "Next",
-        "controlPrevious": "Previous"
+        ]
     },
     "about": {
         "header": "THE BAND",
         "text": "Folknery was created in 2009 by Volodymyr Muliar and Yaryna Kvitka. Since then the band played with different members on small and big stages in various countries, took part in festivals and won contests such as Mikolajki Folkowe (Poland), Euroradio Folk Festival (Sweden), ArtPole (Ukraine), Asia Tri (Indonesia), Menuo Juodaragis (Lithuania), Jarmark Jagelonski (Poland), Kamianitsa (Belarus), Kraina Mriy (Ukraine), Sabalowe Bajania (Poland), Muzyczne Dialogi nad Bugiem (Poland), Trypilske Kolo (Ukraine), Chervona Ruta (Ukraine) and more.\n\n Folknery is a combination of Ukrainian folklore and musical energy of the world.\n This is \"white\" singing accompanied by \"black\" drum rage.\n This is ethnographic travelling through the villages for finding forgotten songs.\n This is unconventional sounding of traditional songs.\n\n Currently Volodymyr and Yaryna with their baby Marco are making bike journey around the world as a part of their cultural travelling project \"Two-Wheeled Chronicles\".\n\n",
-        "personY": "Yaryna Kvitka",
-        "personV": "Volodymyr Muliar",
-        "personYdescr": "singing, percussion, wheel lyre, guimbarde",
-        "personVdescr": "drums, taisho-koto, harmonica, guitar, sound"
+        "personY": "YARYNA KVITKA",
+        "personV": "VOLODYMYR MULIAR",
+        "personYskills": ["singing", "percussion", "guimbarde"],
+        "personVskills": ["drums & percussion", "woodwinds", "soundproducing"]
     },
     "music": {
         "header": "MUSIC/VIDEO",

@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 
 function About(props) {
+  const skillsY = props.data.personYskills.map(item => <h6>{item}</h6>);
+  const skillsV = props.data.personVskills.map(item => <h6>{item}</h6>);
   return (
     <div id="about" className="container space">
       <h3 className="text-center">{props.data.header}</h3>
@@ -11,26 +13,21 @@ function About(props) {
         {props.data.text}
       </div>
       <Row>
-        <Col mdOffset={1} md={10} sm={12}>
-          <Col mdOffset={1} md={4} sm={6} className="text-center">
-            <p><strong>{props.data.personY}</strong></p>
-            <a>
-              <img src="/Images/folk1.jpg" alt="Yaryna Kvitka" className="img-circle person" width="255" height="255" />
-            </a>
-            <p className="margin-bottom-md">{props.data.personYdescr}</p>
+        <Col md={12} sm={12}>
+          <Col md={4} sm={4} className="text-right skillsText">
+            <b>{props.data.personV}</b>
+            <br />
+            {skillsV}
           </Col>
-          <Col mdOffset={2} md={4} sm={6} className="text-center">
-            <p><strong>{props.data.personV}</strong></p>
+          <Col md={4} sm={4} className="text-center">
             <a>
-              <img
-                src="/Images/folk2.jpg"
-                alt="Volodymyr Muliar"
-                className="img-circle person"
-                width="255"
-                height="255"
-              />
+              <img src="/Images/Folknery.png" alt="Folknery" className="img-circle person" width="255" height="255" />
             </a>
-            <p className="margin-bottom-md">{props.data.personVdescr}</p>
+          </Col>
+          <Col md={4} sm={4} className="text-left skillsText">
+            <b>{props.data.personY}</b>
+            <br />
+            {skillsY}
           </Col>
         </Col>
       </Row>

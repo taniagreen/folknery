@@ -5,7 +5,8 @@
 
 // Wrapper for the slide container and indicators
 .carousel {
-  position: relative;
+  max-width: 100%;
+  height: auto;
 }
 
 .carousel-inner {
